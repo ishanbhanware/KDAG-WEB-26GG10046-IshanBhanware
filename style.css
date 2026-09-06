@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Roboto+Condensed:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+body {
+    background-color: #000000;
+    color: white;
+}
+.header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container1 p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: #ffffff;
+    font-family: 'Oswald', cursive;
+    font-size: 70px
+}
+.container1{
+    padding-left: 9%;
+    padding-right: 9%;
+    text-align: center;
+}
+.highlight {
+    color: #ff0000;
+}
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.detailelem {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid white;
+    width: 30%;
+    color: #ff0000;
+    padding: 10px;
+    margin-bottom: auto;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+}
+.register{
+    width: 200px;
+    height: 50px;
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.register:hover {
+    background-color: black;
+    color: #ff0000;
+    transition: 0.3s;
+}
+.curriculum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ff0000;
+    flex-direction: column;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+    }
+    .details {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .detailelem {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}
