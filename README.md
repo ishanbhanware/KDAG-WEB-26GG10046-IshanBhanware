@@ -8,3 +8,6 @@
 I have created the basic layout of what I want the UI of the page to look like. I took some help of AI just to help me visualise the wireframe of the website (I wrote the code by myself, though!). Here is the image showcasing on what I want this webpage to look like (Note: AI generated image):
 <img width="461" height="627" alt="image" src="https://github.com/user-attachments/assets/bc670014-3a04-499e-b282-7cd30df2921c" />
 
+### Commit-2:
+Added some content to the second half of the page. Added card elements similar to those on the KDAG website. I also imitating the hover effects on the cards from the actual KDAG webpage, although I think I did a poor job at it (,,>﹏<,,). 
+
