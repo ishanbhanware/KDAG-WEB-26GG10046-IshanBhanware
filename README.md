@@ -11,3 +11,6 @@ I have created the basic layout of what I want the UI of the page to look like. 
 ### Commit-2:
 Added some content to the second half of the page. Added card elements similar to those on the KDAG website. I also imitating the hover effects on the cards from the actual KDAG webpage, although I think I did a poor job at it (,,>﹏<,,). 
 
+### Commit-3:
+Added a navigation bar at the top, with buttons linking to specific segments of the landing page, along with a register button that links to the forms page.
+
