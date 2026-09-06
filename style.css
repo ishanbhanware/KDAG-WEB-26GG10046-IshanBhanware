@@ -20,6 +20,11 @@ h1 {
     font-family: 'Oswald', cursive;
     font-size: 70px
 }
+h2{
+    color: #ff0000;
+    font-family: 'Oswald', cursive;
+    font-size: 50px;
+}
 .container1{
     padding-left: 9%;
     padding-right: 9%;
@@ -40,7 +45,7 @@ h1 {
     text-align: center;
     border: 1px solid white;
     width: 30%;
-    color: #ff0000;
+    color: #c34c4c;
     padding: 10px;
     margin-bottom: auto;
     height: 50%;
@@ -72,10 +77,50 @@ h1 {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #ff0000;
+    background-color: #000000;
     flex-direction: column;
     padding-left: 9%;
     padding-right: 9%;
+    padding-bottom: 15vh;
+}
+.curriculum p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.cardrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+.card{
+    width: 45%;
+    height: 200px;
+    background-color: #111111;
+    color: rgb(253, 95, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.card h3{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+.card:hover {
+    border-color: #FF0000;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.6), 
+                0 0 20px rgba(255, 0, 0, 0.4),
+                0 0 20px rgba(255, 0, 0, 0.2);
+    transform: translateY(-4px) scale(1.03);
 }
 @media (max-width: 768px) {
     .header {
@@ -89,5 +134,18 @@ h1 {
     .detailelem {
         width: 90%;
         margin-bottom: 10px;
+    }
+    .cardrow {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .card {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .curriculum {
+        height: auto;
+        padding-bottom: 50px;
     }
 }
