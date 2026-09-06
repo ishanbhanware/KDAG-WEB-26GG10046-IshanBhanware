@@ -1,7 +1,7 @@
 # WEB DEV TASK FOR THE KHARAGPUR DATA ANALYTICS GROUP
 
 ## INTRODUCTION:
-<this project is in active development, introduction will be added when it is completed>
+Web development task for the Kharagpur Data Analytics Group, this repository contains the landing page and registration workflow developed for the Kharagpur Data Analytics Group (KDAG). Built with modular HTML5 and pure CSS, this project features a responsive landing page sectioned into "Home" and "About" views, alongside a dedicated application form page. Comprehensive progress with subsequent commits are documented below in the development logs.
 
 ## DEVLOGS:
 ### Commit-1:
@@ -14,3 +14,5 @@ Added some content to the second half of the page. Added card elements similar t
 ### Commit-3:
 Added a navigation bar at the top, with buttons linking to specific segments of the landing page, along with a register button that links to the forms page.
 
+### Commit-4:
+Fully implemented the signup form page. Since deadline time was approaching quick, I did have to resort to using AI tools for some form CSS styles (since writing it myself would take a lot of time), however nonetheless I do understand how my code works and I hope that this act is accepted („𖦹﹏𖦹„)
