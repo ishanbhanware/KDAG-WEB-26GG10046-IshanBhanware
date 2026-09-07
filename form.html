@@ -14,53 +14,43 @@
         <li><a href="index.html#about">[about]</a></li>
         </ul>
     </div>
-    <main class="signup-container">
-    <div class="signup-card">
-      <form id="registrationForm" class="signup-form" novalidate>
-        <h2>Register Now</h2>
-        <p class="subtitle">Beginner's Python & Data Analytics Bootcamp</p>
-
-        <div id="errorMessage" class="error-banner" style="display: none;"></div>
-
-        <div class="form-group">
-          <label for="fullname">Full Name</label>
-          <input type="text" id="fullname"/>
+    <main class="form-container">
+        <div class="form-card" id="form">
+            <h1>REGISTER <span class="highlight">NOW</span></h1>
+            <h3>Name:</h3>
+            <input type="text" id="name" placeholder="Enter your name">
+            <h3>Roll Number:</h3>
+            <input type="text" id="rollnumber" placeholder="Enter your roll number">
+            <h3>Email:</h3>
+            <input type="email" id="email" placeholder="Enter your email">
+            <h3>Department:</h3>
+            <select id="department">
+                <option value="">Select your department</option>
+                <option value="CSE">Computer Science & Engineering</option>
+                <option value="ECE">Electronics & Communication Engineering</option>
+                <option value="EE">Electrical Engineering</option>
+                <option value="ME">Mechanical Engineering</option>
+                <option value="MA">Mathematics & Computing</option>
+                <option value="OTHER">Other</option>
+            </select>
+            <button id="submit" class="register">[register now]</button>
         </div>
-
-        <div class="form-group">
-          <label for="rollNumber">Roll Number</label>
-          <input type="text" id="rollNumber" maxlength="9" />
+        <div class="form-card" style="display: none;" id="success">
+            <h1>REGISTRATION SUCCESSFUL! WELCOME TO THE BOOTCAMP</h1>
+            <h2>DETAILS</h2>
+            <div class="details">
+                <div class="detailelem">
+                    <p>Date: 29th September</p>
+                </div>
+                <div class="detailelem">
+                    <p>Venue: Vikramshila</p>
+                </div>
+                <div class="detailelem">
+                    <p>Pre Requisites: None</p>
+                </div>
+            </div>
         </div>
-
-        <div class="form-group">
-          <label for="email">Email Address</label>
-          <input type="email" id="email"/>
-        </div>
-
-        <div class="form-group">
-          <label for="department">Department</label>
-          <select id="department">
-            <option value="">Select Department</option>
-            <option value="CSE">Computer Science & Engineering</option>
-            <option value="ECE">Electronics & ECE</option>
-            <option value="EE">Electrical Engineering</option>
-            <option value="ME">Mechanical Engineering</option>
-            <option value="MA">Mathematics & Computing</option>
-            <option value="OTHER">Other</option>
-          </select>
-        </div>
-
-        <button type="submit" class="submit-btn">Register</button>
-      </form>
-
-      <div id="successMessage" class="success-card" style="display: none;">
-        <div class="success-icon">✓</div>
-        <h2>Registration Successful!</h2>
-        <p>Welcome to the Bootcamp.</p>
-      </div>
-
-    </div>
-    
+    </main>
 </body>
 <script src="script.js"></script>
 </html>
